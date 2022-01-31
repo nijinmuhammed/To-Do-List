@@ -47,7 +47,7 @@ while True:
             ----------''')
         i = 1
         for item in todolist:
-            print(i, "         ", item)
+            print("         ",i, item)
             i += 1
     elif question == 3:
         for item in todolist:
